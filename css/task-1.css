@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.form{
+width: 500px;
+padding: 10px;
+box-shadow: 2px 2px 5px 2px #2d2d2d;
+}
+.form img{
+    display: block;
+    width: 180px;
+}
+.form span{
+    display: block;
+}
+.form .label{
+    display: block;
+}
+.button{
+    margin-top: 15px;
+}
+
+
+

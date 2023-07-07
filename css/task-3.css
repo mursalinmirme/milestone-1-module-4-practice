@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gainsboro;
+}
+main{
+    padding: 20px;
+    background: #ffffff;
+}
+td,th{
+    padding: 10px 20px;
+    border: 1px solid #424141;
+}
+h1{
+    margin: 0;
+    margin-bottom: 20px;
+}
