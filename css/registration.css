@@ -6,9 +6,59 @@ body{
 }
 form{
     width: 450px;
+    border: 1px solid ;
+
+}
+form .formData{
+    padding: 30px 30px;
+    background: linear-gradient(rgb(1, 25, 91),rgb(21, 75, 151));
+}
+.formTitle{
+    background-color: rgb(10, 6, 68);
 }
 form h1{
    text-align: center;
    font-size: 25px;
    font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #ffff;
+   margin: 0;
+   padding: 20px 0;
 }
+.formData .input{
+    display: block;
+    width: 358px;
+    font-size: 18px;
+    padding: 12px 15px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+label{
+    display: block;
+    color: rgb(229, 230, 232);
+    padding-left: 15px;
+    margin-top: 15px;
+}
+.checkbox{
+    display: flex;
+}
+input[type='checkbox']{
+    margin-top: 15px;
+}
+.button{
+    text-align: right;
+    margin-top: 25px;
+}
+
+button{
+    font-size: 20px;
+    color: #ffff;
+    padding: 10px 20px;
+    background-color: rgb(5, 223, 9);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+
+
